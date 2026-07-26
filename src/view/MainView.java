@@ -23,7 +23,7 @@ public class MainView extends JFrame {
     private JButton btnAddRoom, btnAssignRoom;
 
     public MainView() {
-        setTitle("Hệ Thống Quản Lý Toàn Diện");
+        setTitle("Hệ Thống Quản Lý Sinh Viên");
         setSize(900, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
