@@ -5,7 +5,6 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseConnection {
-    // Đường dẫn kết nối
     private static final String URL = "jdbc:mysql://localhost:3306/quan_ly_sinh_vien";
     private static final String USER = "root"; // Đổi thành username thực tế
     private static final String PASSWORD = "root"; // Đổi thành password thực tế

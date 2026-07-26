@@ -16,7 +16,6 @@ public class SinhVienService {
         return repository.getAllSinhVien();
     }
 
-    // Kiểm tra dữ liệu trước
     public boolean addSinhVien(SinhVien sv) throws InvalidDataException {
         if (sv.getMaSv() == null || sv.getMaSv().trim().isEmpty()) {
             throw new InvalidDataException("Mã sinh viên không được để trống!");
